@@ -3,4 +3,5 @@
 Plataforma de estudos para Cientista de Dados
 
 
-Author: Igor Freitas de Oliveira
+Autores: Igor Freitas de Oliveira
+         André
