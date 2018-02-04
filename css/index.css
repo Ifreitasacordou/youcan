@@ -1,0 +1,534 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.70;
+
+}
+
+.sec{
+ height: 100%;
+}
+
+.sec1{
+	background-color: #0f4c91;
+
+   
+  
+
+}
+
+.sec2{
+    background-color: #268ed2;
+	padding-top: 10px;
+
+	
+}
+
+.lado li img{
+	padding-bottom: 13px;
+}
+
+body{
+
+//esconder barra de scroll
+	background-size: 100%;
+}
+
+.tituloCentro{
+    text-align: center;
+    color: white;
+    padding-top: 61px;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	height: 100%;
+    width: 100% !important ;
+	background-color: #1b2973;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	background-color: #3243a0;
+	color: white;
+	height: 55px;
+	position: fixed;
+
+}
+ul {
+	padding-top: 19px;
+	margin-left: 20px;
+
+	
+}
+
+li {
+	display: inline;
+	font-size: 16px;
+	
+
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	padding: 13px;
+}
+
+li button{
+	float: right;
+    height: 29px;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.lado li{
+	padding: 10px;
+}
+.margem{
+	padding-top: 10px;
+}
+
+.busc{
+
+	padding-top: 0px;
+}
+
+.caixaBusca{
+	float: right;
+    margin-right: 0px;
+}
+.bars{
+	size: 10px;
+	padding-top: 16px;
+}
+.logoTipo{
+	padding-top: 60px;
+	width: 200px;
+	height: auto;
+	
+}
+
+.logoTipo2{
+	padding-top: 10px;
+	width: 400px;
+	height: auto;
+}
+
+
+
+.test1{
+	width: 100%;
+	display: flex;
+	padding-left: 100px;
+}
+.test2{
+	padding-left: 15px;
+	display: flex;
+	width: 100%;
+	padding-right: 2px;
+}
+.butao{
+	
+	width: 100%;
+	text-align: center;
+    padding-top: 40px;
+}
+
+.botoes{
+	padding-top: 10px;
+	width: 50%;
+
+}
+
+.b1{
+	margin-right: 10px;
+}
+.b2{
+
+}
+.estiloBotao{
+    border-radius: 12px;
+    width: 139px;
+    height: 27px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: solid 1.5px white;
+}
+
+.lado{
+	display: flex;
+	padding-top: 59px;
+}
+.desafioSpan{
+	color: grey;
+	text-align: left;
+}
+
+
+.b2{
+	padding: 0px;
+}
+
+.formatarImagem{
+    width: 50px;
+    height: 54px;
+}
+
+#over img {
+    
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 13px;
+}
+
+#over{
+	text-align: center;
+	color: white;
+}
+#menuBarra{
+	display: none;
+}
+
+#icones{
+	text-align: center;
+	color: white;
+	display: flex;
+	font-size: 15px;
+
+}
+
+@media screen and (min-width: 801px) {
+    .caixaBusca{
+    	height: 25px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    
+
+
+    
+    ul{
+    	display: flex;
+    }
+
+    body{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+  
+
+    #menuBarra{
+    	display: block;
+    }
+
+    #over img {
+   	margin-top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+	#over{
+		position:absolute; 
+		width:100%; 
+		height:100%;
+	}
+  
+  .ocultarParagrafo{
+        display: none;
+    }
+
+   .menuOcultar {
+
+    display: none;
+  }
+
+  
+  .naoOcultar{
+  	padding-left: 90px;
+  	padding-right: 2px: 
+  }
+
+  .caixaBusca{
+  	margin-left: 377px;
+  	height: 25px;
+  	float: right;  	
+  }
+
+  .bars{
+	size: 10px;
+	padding-top: 8px;
+}
+
+.logoTipo{
+	width: 100px;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 93px;
+    margin-left: 104px;
+}
+
+.lado{
+	display: block;
+}
+.lado1{
+	padding-top: 566px;
+
+}
+
+}
+
+/* -------------------------Formulario Style-----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+    padding-top: 35px;
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+
+.alinhamento{
+
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+.formulario{
+	padding-left: 31px;
+}
+
+.rodape{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+.imagemCadastro{
+  float: right;
+  padding-bottom: 90px;
+}
+
+/* -------------------------RANK-----------------------------------------*/
+.tabelaRank{
+	padding-top: 80px;
+	padding-right: 66px;
+    padding-bottom: 66px;
+    padding-left: 66px;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr{background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+}
+
+/* -------------------------DESAFIOS-----------------------------------------*/
+.dAberto{
+    padding-top: 71px;
+
+}
+
+.desafioAberto{
+
+    background-color: #0f4c91;
+
+}
+
+.desafioAndamento{
+    padding-top: 10px;
+    background-color: #268ed2;
+}
+
+.desafioEncerrado{
+    padding-top: 10px;
+    background-color: #00aff0; 
+}
+
+
+.linha {
+    width: 100%;
+    display: flex;
+}
+
+.divCentralizada {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.coluna1{
+    width: 25%;
+
+}
+
+.coluna1 img{
+    width: 200px;
+    height: auto;
+}
+
+.linha {
+    width: 100%;
+}
+
+.coluna1{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+}
+
+.centro{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.numeroCadastrados{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+}
+
+.cadastroSemanal{
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+}
+
+.cadastroMensal {
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+/* -------------------------Quantidade de Membros Cadastrados-----------------------------------------*/
+
+.titulo {
+    padding-top: 5%;
+
+}
+//background-attachment: fixed;
+
+.cadastroMensal h2{
+    height: 50px;
+    font-size: 19px;
+    width: 46%;
+    margin-left: 14%;
+}
+
+.texto{
+    text-align: center;
+}
+
+
+    
