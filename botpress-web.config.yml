@@ -1,0 +1,17 @@
+# DEFAULT SETTINGS
+botName: 'youCan' ## Name of your bot
+botAvatarUrl:  ## Default avatar url of the image (e.g. 'https://avatars3.githubusercontent.com/u/1315508?v=4&s=400' )
+botConvoTitle: 'Suporte Técnico' ## Title of the first conversation with the bot
+
+# POPUP CONVERSATION SETTINGS
+welcomeMsgEnable: true
+welcomeMsgDelay: 1000
+welcomeMsgText: | ## Welcome message that shows at on pop-up (multi-lines)
+  Seja bem vindo ao youCan !
+
+
+# COLOR SETTINGS
+backgroundColor: '#ffffff' ## Color of the background 
+textColorOnBackground: '#666666' ## Color of the text on the background
+foregroundColor: '#0176ff' ## Element background color (header, composer, button..)
+textColorOnForeground: '#ffffff'  ## Element text color (header, composer, button..)
