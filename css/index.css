@@ -733,17 +733,12 @@ fieldset.grupo .campo {
 .rank{
     margin: 2%;
     margin-left: 25%;
-    width:  ;
     height: 10px;
     background-color: black;
     color: white;
 
 }
 
-#rank img{
-    width: 25%;
-    height: auto;
-}
 
 #rank{
     background-image: url('https://images4.alphacoders.com/741/74184.jpg');
@@ -766,8 +761,52 @@ fieldset.grupo .campo {
 }
 
 .top1{
+    
     margin: 2%;
     width: 33%;
     height: 100px;
     background-color: #000;
+}
+
+.cRank{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 33%;
+    position: absolute;
+    color: white;
+   
+    
+}
+
+
+
+.imgTrofeu{
+    position: absolute;
+    width: 134px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+.pRank{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.cRank2{
+    margin-top: 3%;
+    margin-left: 44%;
+    width: 33%;
+    position: absolute;
+    color: white;
+    
+}
+.cRank3{
+    margin-top: 3%;
+    margin-left: 77%;
+    width: 33%;
+    position: absolute;
+    color: white;
+    
 }
